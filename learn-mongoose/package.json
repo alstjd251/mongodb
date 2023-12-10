@@ -1,0 +1,11 @@
+{
+  "name": "learn-mongoose",
+  "version": "0.0.1",
+  "description": "mongoose practice",
+  "main": "app.js",
+  "scripts": {
+    "strat": "nodemon app"
+  },
+  "author": "ZeroCho",
+  "license": "MIT"
+}
