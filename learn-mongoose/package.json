@@ -4,7 +4,7 @@
   "description": "mongoose practice",
   "main": "app.js",
   "scripts": {
-    "strat": "nodemon app"
+    "start": "nodemon app"
   },
   "author": "ZeroCho",
   "license": "MIT"
