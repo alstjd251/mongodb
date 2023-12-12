@@ -53,7 +53,7 @@ async function getComment(id){
             td.textContent = comment.comment;
             row.appendChild(td);
             const edit = document.createElement('button');
-            row.appendChild(td);
+            // row.appendChild(td);
             edit.textContent = '수정';
             edit.addEventListener('click', async () => {
                 const newComment = prompt('바꿀 내용을 입력하세요.');
