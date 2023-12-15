@@ -111,9 +111,9 @@ document.getElementById('user-form').addEventListener('submit', async (e) => {
     e.target.username.value = '';
     e.target.age.value = '';
     e.target.married.checked = false;
-  });
+});
   // 댓글 등록 시
-  document.getElementById('comment-form').addEventListener('submit', async (e) => {
+document.getElementById('comment-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     const id = e.target.userid.value;
     const comment = e.target.comment.value;
@@ -131,4 +131,4 @@ document.getElementById('user-form').addEventListener('submit', async (e) => {
     }
     e.target.userid.value = '';
     e.target.comment.value = '';
-  });
+});
