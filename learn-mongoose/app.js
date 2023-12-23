@@ -5,7 +5,7 @@ const nunjucks = require('nunjucks');
 
 const connect = require('./schemas');
 const indexRouter = require('./routes/index');
-const userRouter = require('./routes/users');
+const usersRouter = require('./routes/users');
 const commentsRouter = require('./routes/comments');
 
 const app = express();
@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use('/', indexRouter);
-app.use('/users', userRouter);
+app.use('/users', usersRouter);
 app.use('/comments', commentsRouter);
 
 app.use((req, res, next) => {

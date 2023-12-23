@@ -5,7 +5,7 @@ const connect = () => {
         mongoose.set('debug', true);
     }
 
-    mongoose.connect('mongodb://mskang:inwoo1506@localhost:27017/admin', {
+    mongoose.connect('mongodb://mskang:gozld25251@localhost:27017/admin', {
         dbName: 'nodejs',
         // 사용하지 않는 속성
         // useNewUrlParser: true,

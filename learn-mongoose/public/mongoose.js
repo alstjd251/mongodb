@@ -1,6 +1,7 @@
 document.querySelectorAll('#user-list tr').forEach((el) => {
     el.addEventListener('click', function () {
         const id = el.querySelector('id').textContent;
+        getComment(id);
     });
 });
 
